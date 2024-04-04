@@ -2,6 +2,7 @@
 import inquirer from "inquirer";
 const random = Math.floor(Math.random() * 10 + 1);
 let condition = false;
+let guess = 0;
 while (!condition) {
     const answer = await inquirer.prompt([
         {
@@ -17,4 +18,6 @@ while (!condition) {
     else {
         console.log("You guessed the wrong number, please guess again");
     }
+    guess++;
 }
+console.log(`You have guessed ${guess} times`);

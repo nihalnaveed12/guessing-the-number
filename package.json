@@ -1,6 +1,6 @@
 {
   "name": "nihal-cli-number-guessing",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a CLI based number guessing game",
   "main": "index.js",
   "type": "module",
